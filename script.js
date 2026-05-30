@@ -11,7 +11,7 @@ function actualizar() {
   const segundos = Math.floor((diferencia / 1000) % 60);
 
   contador.innerHTML =
-    dias + " días ❤️ " +
+    dias + " DÍAS JUNTOS CON ALBANIS ❤️ " +
     horas + " horas ❤️ " +
     minutos + " minutos ❤️ " +
     segundos + " segundos ❤️";
