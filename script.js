@@ -14,12 +14,11 @@ const minutos = Math.floor((diferencia % (1000 * 60 * 60)) / (1000 * 60));
 
 const segundos = Math.floor((diferencia % (1000 * 60)) / 1000);
 
-document.getElementById(‘contador’).innerHTML =
-dias + “ días ❤️” +
-horas + “ horas ❤️” +
-minutos + “ minutos ❤️” +
-segundos + “ segundos ❤️”;
-
+document.getElementById('contador').innerHTML =
+dias + " días ❤️<br>" +
+horas + " horas ❤️<br>" +
+minutos + " minutos ❤️<br>" +
+segundos + " segundos ❤️";
 }
 
 actualizar();
