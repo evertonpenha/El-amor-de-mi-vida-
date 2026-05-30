@@ -24,4 +24,4 @@ segundos + “ segundos ❤️”;
 
 actualizar();
 
-setInterval(actualizar,10
+setInterval(actualizar,1000);
