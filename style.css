@@ -1,0 +1,4 @@
+body{font-family:Arial,sans-serif;max-width:900px;margin:auto;padding:20px;background:#fffafc}
+.hero{text-align:center;padding:40px}
+.card{padding:12px;margin:8px 0;border:1px solid #ddd;border-radius:10px}
+#contador{font-size:1.3em;font-weight:bold}
