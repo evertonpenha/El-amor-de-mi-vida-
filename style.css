@@ -4,7 +4,7 @@ body{font-family:Arial,sans-serif;max-width:900px;margin:auto;padding:20px;backg
 #contador{font-size:1.3em;font-weight:bold}
 .corazones {
   position: fixed;
-  top: 0;
+  top: 100vh;
   left: 0;
   width: 100%;
   height: 100%;
@@ -16,7 +16,7 @@ z-index: 9999;
   position: absolute;
   bottom: -50px;
   font-size: 24px;
-  animation: subir 10s linear infinite;
+  animation: subir 8s linear infinite;
 }
 
 .corazones span:nth-child(1) { left: 10%; animation-delay: 0s; }
@@ -31,7 +31,7 @@ z-index: 9999;
 @keyframes subir {
   0% {
     transform: translateY(0);
-    opacity: 0;
+    opacity: 1;
   }
 
   20% {
