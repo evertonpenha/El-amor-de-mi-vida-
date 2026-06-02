@@ -10,7 +10,7 @@ body{font-family:Arial,sans-serif;max-width:900px;margin:auto;padding:20px;backg
   height: 100%;
   pointer-events: none;
   overflow: hidden;
-}
+z-index: 9999;
 
 .corazones span {
   position: absolute;
