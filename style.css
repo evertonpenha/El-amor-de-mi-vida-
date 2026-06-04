@@ -43,3 +43,30 @@ z-index: 9999;
     opacity: 0;
   }
 }
+.mensaje-foto{
+    margin-top:-120px;
+    display:flex;
+    justify-content:center;
+    position:relative;
+    z-index:2;
+}
+
+.carta-foto{
+    background:#fff5f7;
+    border:2px solid #ffd6df;
+    border-radius:20px;
+    padding:20px;
+    width:80%;
+    text-align:center;
+    box-shadow:0 4px 15px rgba(255,105,135,.25);
+}
+
+.carta-foto h3{
+    color:#ff4f7b;
+    margin-bottom:10px;
+}
+
+.carta-foto p{
+    margin:0;
+    line-height:1.5;
+}
